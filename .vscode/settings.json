@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "retail",
+            "database": "\"C:\\Users\\lilci\\OneDrive\\Desktop\\sql_project\\retail.db\""
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:sql_project}/retail.db",
+            "name": "retail"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
